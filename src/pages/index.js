@@ -1,7 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import ImageSection from "../components/image-section";
-import LocationSection from "../components/location-section";
 import TextSection from "../components/text-section";
 import PhotoDetailSection from "../components/photo-detail-section";
 import saoCaeatano from "../images/sao-caetano-2.jpg";
