@@ -1,0 +1,43 @@
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10vh;
+}
+
+
+.contact {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+}
+
+.contact-link {
+    opacity: .7;
+    color: #545748;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration: none;
+    transition: opacity .3s cubic-bezier(.25, .46, .45, .94), color .3s cubic-bezier(.25, .46, .45, .94);
+}
+
+.heading {
+    color: #545748;
+    margin-top: 0;
+    margin-bottom: 17px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 145%;
+}

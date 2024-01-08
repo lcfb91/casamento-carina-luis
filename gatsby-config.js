@@ -6,5 +6,13 @@ module.exports = {
     title: `Casamento Carina e Luis`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Marcellus`],
+        display: "swap",
+      },
+    },
+  ],
+};
