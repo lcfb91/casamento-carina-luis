@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import ImageSection from "../components/image-section";
+import ImageSectionParalax from "../components/image-section-paralax";
 import TextSection from "../components/text-section";
 import PhotoDetailSection from "../components/photo-detail-section";
 import saoCaeatano from "../images/sao-caetano-2.jpg";
@@ -9,40 +10,42 @@ import ContactsSection from "../components/contacts-section";
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <ImageSection />
-      <TextSection
-        id="data"
-        title="YOUR WEDDING SHOULD BE UTTERLY UNFORGETTABLE, DEEPLY ROMANTIC, EXQUISITELY BEAUTIFUL AND ENTIRELY YOU...."
-        paragraph="Lectus sit turpis iaculis eu non sed turpis suscipit facilisi. Lorem morbi non morbi id aliquam. Urna adipiscing odio."
-      />
-      <PhotoDetailSection
-        id="cerimonia"
-        imageSrc={saoCaeatano}
-        sectionName="Cerimónia"
-        title="Santuário São Caetano"
-        paragraphText="Cras urna sed purus magna morbi morbi congue suspendisse. Est faucibus hendrerit donec nisi, feugiat suscipit eu, sit. Orci euismod nibh."
-        buttonText="Como chegar?"
-        buttonUrl="https://maps.app.goo.gl/GtWJ8akYubVRRco8A"
-      />
+    <>
+      <ImageSectionParalax />
+      <Layout>
+        <TextSection
+          id="data"
+          title="YOUR WEDDING SHOULD BE UTTERLY UNFORGETTABLE, DEEPLY ROMANTIC, EXQUISITELY BEAUTIFUL AND ENTIRELY YOU...."
+          paragraph="Lectus sit turpis iaculis eu non sed turpis suscipit facilisi. Lorem morbi non morbi id aliquam. Urna adipiscing odio."
+        />
+        <PhotoDetailSection
+          id="cerimonia"
+          imageSrc={saoCaeatano}
+          sectionName="Cerimónia"
+          title="Santuário São Caetano"
+          paragraphText="O Santuário dista cerca de 13km da cidade de Chaves. A sua origem remonta à época visigótica e é dedicado a São Caetano. Este é um local aprazível, com árvores frondosas e de grande porte, onde se realiza a grande romaria anual flaviense, festa que se realiza no domingo 7 de agosto ou, quando o 7 de agosto não coincide com o domingo, no primeiro domingo a seguir ao 7 de agosto, atraindo inúmeros peregrinos em romagem. A data da festa do São Caetano coincide com a morte deste Santo italiano, natural de Vicenza. O conjunto do Santuário é formado por igreja e capelas, cuja traça arquitetónica tem sofrido grandes alterações ao longo do tempo, com edificações que datam dos Sécs. XVI / XVIII / XIX.."
+          buttonText="Como chegar?"
+          buttonUrl="https://maps.app.goo.gl/GtWJ8akYubVRRco8A"
+        />
 
-      <TextSection
-        title="YOUR WEDDING SHOULD BE UTTERLY UNFORGETTABLE, DEEPLY ROMANTIC, EXQUISITELY BEAUTIFUL AND ENTIRELY YOU...."
-        paragraph="Lectus sit turpis iaculis eu non sed turpis suscipit facilisi. Lorem morbi non morbi id aliquam. Urna adipiscing odio."
-      />
+        <TextSection
+          title="YOUR WEDDING SHOULD BE UTTERLY UNFORGETTABLE, DEEPLY ROMANTIC, EXQUISITELY BEAUTIFUL AND ENTIRELY YOU...."
+          paragraph="Lectus sit turpis iaculis eu non sed turpis suscipit facilisi. Lorem morbi non morbi id aliquam. Urna adipiscing odio."
+        />
 
-      <PhotoDetailSection
-        id="convivio"
-        imageSrc={casasNovas}
-        sectionName="Convívio"
-        title="Casas Novas, Countryside Hotel"
-        paragraphText="Cras urna sed purus magna morbi morbi congue suspendisse. Est faucibus hendrerit donec nisi, feugiat suscipit eu, sit. Orci euismod nibh."
-        buttonText="Como chegar?"
-        buttonUrl="https://maps.app.goo.gl/nCka5uuN7tv9gov9A"
-      />
+        <PhotoDetailSection
+          id="convivio"
+          imageSrc={casasNovas}
+          sectionName="Convívio"
+          title="Casas Novas, Countryside Hotel"
+          paragraphText="Cras urna sed purus magna morbi morbi congue suspendisse. Est faucibus hendrerit donec nisi, feugiat suscipit eu, sit. Orci euismod nibh."
+          buttonText="Como chegar?"
+          buttonUrl="https://maps.app.goo.gl/nCka5uuN7tv9gov9A"
+        />
 
-      <ContactsSection id="contactos" />
-    </Layout>
+        <ContactsSection id="contactos" />
+      </Layout>
+    </>
   );
 };
 

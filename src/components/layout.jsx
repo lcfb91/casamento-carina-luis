@@ -2,7 +2,7 @@
 import * as React from 'react'
 import Topbar from './topbar'
 import {
-
+    content
 } from './layout.module.css'
 
 /* Step 2: Define your component. Note that your
@@ -11,8 +11,8 @@ const Layout = ({children}) => {
     return (
       
         <body>
-            <Topbar/>
-            <main>
+            {/* <Topbar/> */}
+            <main className={content}>
                 {children}
             </main>
         </body>

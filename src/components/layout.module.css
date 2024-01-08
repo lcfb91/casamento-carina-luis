@@ -2,4 +2,12 @@ body {
     background-color: #f6f4ec;
     font-family: "Marcellus";
     color: #545748;
+    margin: 0;
+}
+
+.content {
+     margin-left: 3vh;
+    margin-right: 3vh;
+    z-index: 2;
+
 }

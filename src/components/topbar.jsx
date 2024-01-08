@@ -4,8 +4,11 @@ import {
   navLink,
   navMenu,
   grid,
-  gridElement
+  gridElement,
+  navLogo
 } from './topbar.module.css'
+
+import logo from '../images/logo.png'
 
 /* Step 2: Define your component. Note that your
 component name should start with a capital letter. */
@@ -16,7 +19,7 @@ const Topbar = () => {
           <a className={navLink} href="#data">Data</a>
           <a className={navLink} href="#cerimonia">Cerimónia</a>
           <div className={navLink}>
-            <img src="https://assets-global.website-files.com/6109925e44b6ab8a7601f26a/6109d47bc8f20c016fc04d7b_logo.svg" alt="logo" />
+          <img src={logo} alt="logo" className={ navLogo} />
           </div>
           <a className={navLink} href="#convivio">Convívio</a>
           <a className={navLink} href="#contactos">Contactos</a>
