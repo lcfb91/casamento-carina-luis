@@ -17,7 +17,7 @@ const TextSection = ({title, paragraph}) => {
             <img src="https://assets-global.website-files.com/6109925e44b6ab8a7601f26a/610c7de4acbdd5b712b1338f_extra.png" loading="lazy" alt="" width="70" className={textSectionLogo}></img>
             <h4 className={heading}>{title}</h4>
             <p className={textSectionParagraph}>{ paragraph}</p>
-            <div className={signature}>Lynn Goodman</div>
+            <div className={signature}>Carina Ramos</div>
         </section>
   )
 }

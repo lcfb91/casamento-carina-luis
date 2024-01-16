@@ -15,8 +15,8 @@ const IndexPage = () => {
       <Layout>
         <TextSection
           id="data"
-          title="YOUR WEDDING SHOULD BE UTTERLY UNFORGETTABLE, DEEPLY ROMANTIC, EXQUISITELY BEAUTIFUL AND ENTIRELY YOU...."
-          paragraph="Lectus sit turpis iaculis eu non sed turpis suscipit facilisi. Lorem morbi non morbi id aliquam. Urna adipiscing odio."
+          title="Há 24 anos que nos encontrámos, há 8 decidimos caminhar juntos. "
+          paragraph="Agora queremos continuar a fazê-lo, juntos, lado a lado, e para sempre. Queremos celebrar o nosso amor e decidimos que vamos casar!"
         />
         <PhotoDetailSection
           id="cerimonia"
@@ -38,7 +38,7 @@ const IndexPage = () => {
           imageSrc={casasNovas}
           sectionName="Convívio"
           title="Casas Novas, Countryside Hotel"
-          paragraphText="Cras urna sed purus magna morbi morbi congue suspendisse. Est faucibus hendrerit donec nisi, feugiat suscipit eu, sit. Orci euismod nibh."
+          paragraphText="Situado num local privilegiado com um enquadramento de grande beleza natural sobre uma pequena colina, foi construído a partir da recuperação de um Solar de estilo barroco do século XVIII. Inaugurado em julho de 2008 em Casas Novas - Redondelo, local marcadamente rural de nobres tradições, o Casas Novas Countryside Hotel Spa & Events apresenta-se como um espaço rural moderno, combinando a arquitetura barroca com o estilo contemporâneo."
           buttonText="Como chegar?"
           buttonUrl="https://maps.app.goo.gl/nCka5uuN7tv9gov9A"
         />
