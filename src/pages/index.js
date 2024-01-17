@@ -15,8 +15,8 @@ const IndexPage = () => {
       <Layout>
         <TextSection
           id="data"
-          title="Há 24 anos que nos encontrámos, há 8 decidimos caminhar juntos. "
-          paragraph="Agora queremos continuar a fazê-lo, juntos, lado a lado, e para sempre. Queremos celebrar o nosso amor e decidimos que vamos casar!"
+          title="Há 24 anos que nos encontrámos, há 8 decidimos caminhar juntos. Agora queremos continuar a fazê-lo, juntos, lado a lado, e para sempre. Queremos celebrar o nosso amor e decidimos que vamos casar!"
+          paragraph=""
         />
         <PhotoDetailSection
           id="cerimonia"
