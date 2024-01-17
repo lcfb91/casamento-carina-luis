@@ -30,7 +30,7 @@ const IndexPage = () => {
 
         <TextSection
           title="Um sonho que se sonha só é apenas um sonho. Um sonho que se sonha em conjunto é uma realidade"
-          paragraph="Lectus sit turpis iaculis eu non sed turpis suscipit facilisi. Lorem morbi non morbi id aliquam. Urna adipiscing odio."
+          paragraph=""
         />
 
         <PhotoDetailSection
