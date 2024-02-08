@@ -23,7 +23,7 @@ const IndexPage = () => {
           imageSrc={saoCaeatano}
           sectionName="Cerimónia"
           title="Santuário São Caetano"
-          paragraphText="O Santuário dista cerca de 13km da cidade de Chaves. A sua origem remonta à época visigótica e é dedicado a São Caetano. Este é um local aprazível, com árvores frondosas e de grande porte, onde se realiza a grande romaria anual flaviense, festa que se realiza no domingo 7 de agosto ou, quando o 7 de agosto não coincide com o domingo, no primeiro domingo a seguir ao 7 de agosto, atraindo inúmeros peregrinos em romagem. A data da festa do São Caetano coincide com a morte deste Santo italiano, natural de Vicenza. O conjunto do Santuário é formado por igreja e capelas, cuja traça arquitetónica tem sofrido grandes alterações ao longo do tempo, com edificações que datam dos Sécs. XVI / XVIII / XIX.."
+          paragraphText="O Santuário dista cerca de 13km da cidade de Chaves e foram múltiplas as vezes que fizemos o percurso a pé, desde Chaves, partilhando o caminho um com o outro e com múltiplos caminheiros com quem nos cruzamos. A sua origem remonta à época visigótica e é dedicado a São Caetano. Este é um local aprazível, com árvores frondosas e de grande porte, onde gostamos de ir com frequência, apreciar a beleza da natureza e aproveitar a paz e o silêncio que nele se fazem sentir. São imensas as memórias que dele partilhamos, dos convívios de família, dos almoços que se prolongavam até ao jantar e até dos jogos de futebol lá assistidos. Hoje, convidamos todos a participar na celebração do nosso casamento, neste mesmo espaço, com um significado tão grande para nós e para as nossas famílias."
           buttonText="Como chegar?"
           buttonUrl="https://maps.app.goo.gl/GtWJ8akYubVRRco8A"
         />
@@ -38,7 +38,7 @@ const IndexPage = () => {
           imageSrc={casasNovas}
           sectionName="Convívio"
           title="Casas Novas, Countryside Hotel"
-          paragraphText="Situado num local privilegiado com um enquadramento de grande beleza natural sobre uma pequena colina, foi construído a partir da recuperação de um Solar de estilo barroco do século XVIII. Inaugurado em julho de 2008 em Casas Novas - Redondelo, local marcadamente rural de nobres tradições, o Casas Novas Countryside Hotel Spa & Events apresenta-se como um espaço rural moderno, combinando a arquitetura barroca com o estilo contemporâneo."
+          paragraphText="Situado num local privilegiado com um enquadramento de grande beleza natural sobre uma pequena colina, foi construído a partir da recuperação de um Solar de estilo barroco do século XVIII.  Escolhemos este sitio, por tratar-se de um espaço rural moderno, com envolvência da natureza, e nele esperamos festejar, trocar abraços e muitos sorrisos, brindar e sermos felizes, junto de quem mais gostamos."
           buttonText="Como chegar?"
           buttonUrl="https://maps.app.goo.gl/nCka5uuN7tv9gov9A"
         />
