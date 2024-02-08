@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Casamento Carina e Luis`,
-    //siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://carinaeluis.pt`,
   },
   plugins: [
     {
