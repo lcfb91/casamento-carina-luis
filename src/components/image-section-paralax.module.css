@@ -52,3 +52,13 @@
     line-height: 140%;
     text-decoration: none;
 }
+
+.image-text-hour {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}

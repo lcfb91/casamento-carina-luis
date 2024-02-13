@@ -6,6 +6,7 @@ import {
     imageTextContainer,
     imageText,
     imageTextDate,
+    imageTextHour
 } from './image-section-paralax.module.css'
 
 import coverImage from '../images/cover_edited.jpeg'
@@ -21,6 +22,7 @@ const ImageSectionParalax = () => {
                 <div className={imageText}>
                     <h1>Carina & Luis</h1>
                     <p className={imageTextDate}>8 de Junho de 2024</p>
+                    <p className={imageTextHour}>12H30</p>
                 </div>                
             </div>
         </div>
