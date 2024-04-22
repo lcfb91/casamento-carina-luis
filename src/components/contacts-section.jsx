@@ -15,11 +15,9 @@ const ContactsSection = () => {
         <section className={content}>
             <div className={contact}>
                 <h5 className={heading}>Carina Ramos</h5>
-                <a href="tel:+351937495042" target="_blank" className={contactLink}>937 495 042</a>
             </div>
             <div className={contact}>
                 <h5 className={heading}>Luis Borges</h5>
-                <a href="tel:+351933488373" target="_blank" className={contactLink}>933 488 373</a>
             </div>
         </section>
   )
